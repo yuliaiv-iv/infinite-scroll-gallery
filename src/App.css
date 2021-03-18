@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  background: #dcdcdc;
+  padding: 50px 50px;
+}
+
+.error {
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  background: rgb(97, 163, 175);
+  color: rgb(247, 232, 230);
+  padding: 20px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+
+.error:hover {
+  background: rgb(49, 88, 95);
+}
+
+h3 {
+  margin-top: 0;
+  width: 200px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+h5 {
+  margin: 0;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+input[type='text'] {
+  min-width: 400px;
+  border-radius: 50px;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  outline: none;
+  margin-right: 12px;
+  font-size: 18px;
+  transition: 0.3s ease border-color;
+}
+
+input[type='text']:active,
+input[type='text']:focus {
+  border-color: #999;
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 50px;
+  width: 150px;
+  border: none;
+  background: #222;
+  color: #bbb;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+button:hover {
+  background: #111;
+  color: #eee;
+}
+
+.search-error {
+  text-align: center;
+  width: 100%;
+}
+
+.image {
+  text-decoration: none;
+  color: rgb(211, 211, 211);
+}
+
+.user-name {
+  margin-left: 7px;
+  color: rgb(70, 70, 70);
+}
+
+.image img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card {
+  display: flex;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image img:hover {
+  transform: translateY(-2px);
+}
+
